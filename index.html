@@ -1,0 +1,297 @@
+<html>
+
+<head>
+  <title>K-Ville</title>
+
+  <script src="k-ville_2.js"></script>
+  <link rel="stylesheet" type=“text/css” href="k-ville_2.css">
+  
+
+</head>
+
+  
+<button id="about-the-game" onclick="alert('Inspired by Wordle, Weddle, & Poetl. Game spans the entire career of Coach K: 1980 to 2022 ... and to present day.')">?</button>
+
+<body>
+
+  <h1> Duke Men's Basketball Player Guessing Game </h1>
+
+  <select id="player-list">
+    <option value= 'Alaa Adelnaby' , data-decade= '1980' , data-start= '1986' , data-years= '4' , data-position= 'C' , data-height= '610', data-number= '30'>Alaa Adelnaby</option>
+<option value= 'Mark Alarie' , data-decade= '1980' , data-start= '1982' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '32'>Mark Alarie</option>
+<option value= 'Grayson Allen' , data-decade= '2010' , data-start= '2014' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '3'>Grayson Allen</option>
+<option value= 'Tommy Amaker' , data-decade= '1980' , data-start= '1983' , data-years= '4' , data-position= 'G' , data-height= '600', data-number= '4'>Tommy Amaker</option>
+<option value= 'Christian Ast' , data-decade= '1990' , data-start= '1990' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '54'>Christian Ast</option>
+<option value= 'William Avery' , data-decade= '1990' , data-start= '1997' , data-years= '2' , data-position= 'G' , data-height= '602', data-number= '5'>William Avery</option>
+<option value= 'Marvin Bagley III' , data-decade= '2010' , data-start= '2017' , data-years= '1' , data-position= 'F' , data-height= '611', data-number= '35'>Marvin Bagley III</option>
+<option value= 'Joey Baker' , data-decade= '2010' , data-start= '2018' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '13'>Joey Baker</option>
+<option value= 'Paolo Banchero' , data-decade= '2020' , data-start= '2021' , data-years= '1' , data-position= 'F' , data-height= '610', data-number= '5'>Paolo Banchero</option>
+<option value= 'RJ Barrett' , data-decade= '2010' , data-start= '2018' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '5'>RJ Barrett</option>
+<option value= 'Shane Battier' , data-decade= '1990' , data-start= '1997' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '31'>Shane Battier</option>
+<option value= 'Joey Beard' , data-decade= '1990' , data-start= '1990' , data-years= '4' , data-position= 'F' , data-height= '609', data-number= '42'>Joey Beard</option>
+<option value= 'Andy Berndt' , data-decade= '1980' , data-start= '1985' , data-years= '2' , data-position= 'G' , data-height= '606', data-number= '0'>Andy Berndt</option>
+<option value= 'Brennan Besser' , data-decade= '2010' , data-start= '2015' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '53'>Brennan Besser</option>
+<option value= 'Jay Bilas' , data-decade= '1980' , data-start= '1982' , data-years= '4' , data-position= 'C' , data-height= '608', data-number= '21'>Jay Bilas</option>
+<option value= 'Kenny Blakeney' , data-decade= '1990' , data-start= '1991' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '4'>Kenny Blakeney</option>
+<option value= 'Jaylen Blakes' , data-decade= '2020' , data-start= '2021' , data-years= '2' , data-position= 'G' , data-height= '602', data-number= '2'>Jaylen Blakes</option>
+<option value= 'Eric Boateng' , data-decade= '2000' , data-start= '2005' , data-years= '1' , data-position= 'C' , data-height= '610', data-number= '45'>Eric Boateng</option>
+<option value= 'Marques Bolden' , data-decade= '2010' , data-start= '2016' , data-years= '3' , data-position= 'C' , data-height= '611', data-number= '20'>Marques Bolden</option>
+<option value= 'Carlos Boozer' , data-decade= '2000' , data-start= '2001' , data-years= '3' , data-position= 'F' , data-height= '609', data-number= '4'>Carlos Boozer</option>
+<option value= 'Stanley Borden' , data-decade= '2020' , data-start= '2021' , data-years= '2' , data-position= 'C' , data-height= '700', data-number= '52'>Stanley Borden</option>
+<option value= 'Andy Borman' , data-decade= '1990' , data-start= '1999' , data-years= '3' , data-position= 'G' , data-height= '601', data-number= '40'>Andy Borman</option>
+<option value= 'Jamal Boykin' , data-decade= '2000' , data-start= '2005' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '34'>Jamal Boykin</option>
+<option value= 'Jaemyn Brakefield' , data-decade= '2020' , data-start= '2020' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '5'>Jaemyn Brakefield</option>
+<option value= 'Elton Brand' , data-decade= '1990' , data-start= '1997' , data-years= '2' , data-position= 'F' , data-height= '608', data-number= '42'>Elton Brand</option>
+<option value= 'Robert Brickey' , data-decade= '1980' , data-start= '1986' , data-years= '4' , data-position= 'F' , data-height= '605', data-number= '21'>Robert Brickey</option>
+<option value= 'Kenney Brown' , data-decade= '1990' , data-start= '1992' , data-years= '1' , data-position= 'G' , data-height= '602', data-number= '14'>Kenney Brown</option>
+<option value= 'Stan Brunson' , data-decade= '1990' , data-start= '1992' , data-years= '4' , data-position= 'F' , data-height= '607', data-number= '31'>Stan Brunson</option>
+<option value= 'D. Bryant' , data-decade= '1990' , data-start= '1996' , data-years= '3' , data-position= 'G' , data-height= '602', data-number= '0'>D. Bryant</option>
+<option value= 'Clay Buckley' , data-decade= '1980' , data-start= '1987' , data-years= '3' , data-position= 'C' , data-height= '610', data-number= '45'>Clay Buckley</option>
+<option value= 'Mike Buckmire' , data-decade= '2010' , data-start= '2017' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '51'>Mike Buckmire</option>
+<option value= 'Andre Buckner' , data-decade= '2000' , data-start= '2002' , data-years= '2' , data-position= 'G' , data-height= '510', data-number= '2'>Andre Buckner</option>
+<option value= 'Ron Burt' , data-decade= '1990' , data-start= '1991' , data-years= '1' , data-position= 'G' , data-height= '600', data-number= '5'>Ron Burt</option>
+<option value= 'Ryan Caldbeck' , data-decade= '1990' , data-start= '1998' , data-years= '3' , data-position= 'G' , data-height= '603', data-number= '5'>Ryan Caldbeck</option>
+<option value= 'Justin Caldbeck' , data-decade= '1990' , data-start= '1996' , data-years= '3' , data-position= 'G' , data-height= '603', data-number= '3'>Justin Caldbeck</option>
+<option value= 'Jeff Capel' , data-decade= '1990' , data-start= '1993' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '5'>Jeff Capel</option>
+<option value= 'Vernon Carey Jr.' , data-decade= '2010' , data-start= '2019' , data-years= '1' , data-position= 'C' , data-height= '610', data-number= '1'>Vernon Carey Jr.</option>
+<option value= 'Chris Carrawell' , data-decade= '1990' , data-start= '1996' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '23'>Chris Carrawell</option>
+<option value= 'Wendell Carter' , data-decade= '2010' , data-start= '2017' , data-years= '1' , data-position= 'F' , data-height= '610', data-number= '34'>Wendell Carter</option>
+<option value= 'Kale Catchings' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'F' , data-height= '605', data-number= '12'>Kale Catchings</option>
+<option value= 'Mark Causey' , data-decade= '2000' , data-start= '2002' , data-years= '2' , data-position= 'G' , data-height= '603', data-number= '45'>Mark Causey</option>
+<option value= 'Mike Chappell' , data-decade= '1990' , data-start= '1996' , data-years= '2' , data-position= 'F' , data-height= '608', data-number= '0'>Mike Chappell</option>
+<option value= 'Matt Christensen' , data-decade= '2000' , data-start= '2000' , data-years= '4' , data-position= 'F' , data-height= '610', data-number= '41'>Matt Christensen</option>
+<option value= 'Marty Clark' , data-decade= '1990' , data-start= '1990' , data-years= '4' , data-position= 'G' , data-height= '606', data-number= '3'>Marty Clark</option>
+<option value= 'Henry Coleman' , data-decade= '2020' , data-start= '2020' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '34'>Henry Coleman</option>
+<option value= 'Chris Collins' , data-decade= '1990' , data-start= '1992' , data-years= '4' , data-position= 'G' , data-height= '603', data-number= '20'>Chris Collins</option>
+<option value= 'Quinn Cook' , data-decade= '2010' , data-start= '2011' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '2'>Quinn Cook</option>
+<option value= 'Joe Cook' , data-decade= '1980' , data-start= '1987' , data-years= '3' , data-position= 'G' , data-height= '602', data-number= '13'>Joe Cook</option>
+<option value= 'Seth Curry' , data-decade= '2000' , data-start= '2009' , data-years= '3' , data-position= 'G' , data-height= '602', data-number= '30'>Seth Curry</option>
+<option value= 'Olek Czyz' , data-decade= '2000' , data-start= '2008' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '13'>Olek Czyz</option>
+<option value= 'Jordan Davidson' , data-decade= '2000' , data-start= '2006' , data-years= '4' , data-position= 'G' , data-height= '601', data-number= '41'>Jordan Davidson</option>
+<option value= 'Patrick Davidson' , data-decade= '2000' , data-start= '2003' , data-years= '3' , data-position= 'G' , data-height= '600', data-number= '41'>Patrick Davidson</option>
+<option value= 'Brian Davis' , data-decade= '1980' , data-start= '1988' , data-years= '4' , data-position= 'F' , data-height= '607', data-number= '23'>Brian Davis</option>
+<option value= 'Andre Dawkins' , data-decade= '2000' , data-start= '2009' , data-years= '5' , data-position= 'G' , data-height= '605', data-number= '34'>Andre Dawkins</option>
+<option value= 'Johnny Dawkins' , data-decade= '1980' , data-start= '1982' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '24'>Johnny Dawkins</option>
+<option value= 'Javin DeLaurier' , data-decade= '2010' , data-start= '2016' , data-years= '4' , data-position= 'F' , data-height= '610', data-number= '12'>Javin DeLaurier</option>
+<option value= 'Sean Dockery' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '15'>Sean Dockery</option>
+<option value= 'Taymon Domzalski' , data-decade= '1990' , data-start= '1995' , data-years= '4' , data-position= 'C' , data-height= '610', data-number= '13'>Taymon Domzalski</option>
+<option value= 'Chris Duhon' , data-decade= '2000' , data-start= '2000' , data-years= '2' , data-position= 'G' , data-height= '601', data-number= '21'>Chris Duhon</option>
+<option value= 'Mike Dunleavy' , data-decade= '2000' , data-start= '2001' , data-years= '3' , data-position= 'F' , data-height= '609', data-number= '34'>Mike Dunleavy</option>
+<option value= 'Trevon Duval' , data-decade= '2010' , data-start= '2017' , data-years= '1' , data-position= 'G' , data-height= '603', data-number= '1'>Trevon Duval</option>
+<option value= 'Daniel Ewing' , data-decade= '2000' , data-start= '2001' , data-years= '4' , data-position= 'G' , data-height= '603', data-number= '5'>Daniel Ewing</option>
+<option value= 'Danny Ferry' , data-decade= '1980' , data-start= '1985' , data-years= '4' , data-position= 'F' , data-height= '610', data-number= '35'>Danny Ferry</option>
+<option value= 'Kyle Filipowski' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'C' , data-height= '700', data-number= '30'>Kyle Filipowski</option>
+<option value= 'Michael Gbinije' , data-decade= '2010' , data-start= '2011' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '13'>Michael Gbinije</option>
+<option value= 'Harry Giles' , data-decade= '2010' , data-start= '2016' , data-years= '1' , data-position= 'F' , data-height= '610', data-number= '1'>Harry Giles</option>
+<option value= 'Jordan Goldwire' , data-decade= '2010' , data-start= '2017' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '14'>Jordan Goldwire</option>
+<option value= 'Jacob Grandison' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'G' , data-height= '606', data-number= '13'>Jacob Grandison</option>
+<option value= 'AJ Griffin' , data-decade= '2020' , data-start= '2021' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '21'>AJ Griffin</option>
+<option value= 'Dick Groat' , data-decade= '1940' , data-start= '1948' , data-years= '4' , data-position= 'G' , data-height= '511', data-number= '10'>Dick Groat</option>
+<option value= 'Josh Hairston' , data-decade= '2000' , data-start= '2009' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '15'>Josh Hairston</option>
+<option value= 'Jeremy Hall' , data-decade= '1990' , data-start= '1995' , data-years= '1' , data-position= 'G' , data-height= '604', data-number= '0'>Jeremy Hall</option>
+<option value= 'Jay Heaps' , data-decade= '1990' , data-start= '1995' , data-years= '4' , data-position= 'G' , data-height= '509', data-number= '22'>Jay Heaps</option>
+<option value= 'Gerald Henderson' , data-decade= '2000' , data-start= '2006' , data-years= '3' , data-position= 'G' , data-height= '604', data-number= '15'>Gerald Henderson</option>
+<option value= 'Phil Henderson' , data-decade= '1980' , data-start= '1986' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '44'>Phil Henderson</option>
+<option value= 'Dave Henderson' , data-decade= '1980' , data-start= '1982' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '12'>Dave Henderson</option>
+<option value= 'Grant Hill' , data-decade= '1990' , data-start= '1990' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '33'>Grant Hill</option>
+<option value= 'Thomas Hill' , data-decade= '1980' , data-start= '1989' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '25'>Thomas Hill</option>
+<option value= 'Rodney Hood' , data-decade= '2010' , data-start= '2012' , data-years= '2' , data-position= 'F' , data-height= '608', data-number= '5'>Rodney Hood</option>
+<option value= 'Nick Horvath' , data-decade= '2000' , data-start= '2000' , data-years= '2' , data-position= 'F' , data-height= '610', data-number= '3'>Nick Horvath</option>
+<option value= 'Spencer Hubbard' , data-decade= '2020' , data-start= '2020' , data-years= '3' , data-position= 'G' , data-height= '508', data-number= '55'>Spencer Hubbard</option>
+<option value= 'Bobby Hurley' , data-decade= '1980' , data-start= '1989' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '11'>Bobby Hurley</option>
+<option value= 'Matthew Hurt' , data-decade= '2010' , data-start= '2019' , data-years= '2' , data-position= 'F' , data-height= '609', data-number= '21'>Matthew Hurt</option>
+<option value= 'Brandon Ingram' , data-decade= '2010' , data-start= '2015' , data-years= '1' , data-position= 'F' , data-height= '609', data-number= '14'>Brandon Ingram</option>
+<option value= 'Kyrie Irving' , data-decade= '2010' , data-start= '2010' , data-years= '1' , data-position= 'G' , data-height= '602', data-number= '1'>Kyrie Irving</option>
+<option value= 'Frank Jackson' , data-decade= '2010' , data-start= '2016' , data-years= '1' , data-position= 'G' , data-height= '603', data-number= '1'>Frank Jackson</option>
+<option value= 'Nate James' , data-decade= '1990' , data-start= '1997' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '14'>Nate James</option>
+<option value= 'Amile Jefferson' , data-decade= '2010' , data-start= '2012' , data-years= '5' , data-position= 'F' , data-height= '609', data-number= '21'>Amile Jefferson</option>
+<option value= 'Chase Jeter' , data-decade= '2010' , data-start= '2015' , data-years= '2' , data-position= 'C' , data-height= '610', data-number= '2'>Chase Jeter</option>
+<option value= 'Theo John' , data-decade= '2020' , data-start= '2021' , data-years= '1' , data-position= 'F' , data-height= '609', data-number= '12'>Theo John</option>
+<option value= 'Max Johns' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'G' , data-height= '605', data-number= '41'>Max Johns</option>
+<option value= 'Jalen Johnson' , data-decade= '2020' , data-start= '2020' , data-years= '1' , data-position= 'F' , data-height= '609', data-number= '1'>Jalen Johnson</option>
+<option value= 'Steve Johnson' , data-decade= '2000' , data-start= '2006' , data-years= '4' , data-position= 'F' , data-height= '605', data-number= '51'>Steve Johnson</option>
+<option value= 'Patrick Johnson' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'C' , data-height= '609', data-number= '51'>Patrick Johnson</option>
+<option value= 'Bates Jones' , data-decade= '2020' , data-start= '2021' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '34'>Bates Jones</option>
+<option value= 'Tre Jones' , data-decade= '2010' , data-start= '2018' , data-years= '2' , data-position= 'G' , data-height= '603', data-number= '3'>Tre Jones</option>
+<option value= 'Matt Jones' , data-decade= '2010' , data-start= '2013' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '13'>Matt Jones</option>
+<option value= 'Tyus Jones' , data-decade= '2010' , data-start= '2014' , data-years= '1' , data-position= 'G' , data-height= '601', data-number= '5'>Tyus Jones</option>
+<option value= 'Dahntay Jones' , data-decade= '2000' , data-start= '2002' , data-years= '2' , data-position= 'F' , data-height= '606', data-number= '30'>Dahntay Jones</option>
+<option value= 'Trevor Keels' , data-decade= '2020' , data-start= '2021' , data-years= '1' , data-position= 'G' , data-height= '605', data-number= '1'>Trevor Keels</option>
+<option value= 'Sean Kelly' , data-decade= '2010' , data-start= '2011' , data-years= '4' , data-position= 'G' , data-height= '603', data-number= '42'>Sean Kelly</option>
+<option value= 'Ryan Kelly' , data-decade= '2000' , data-start= '2009' , data-years= '4' , data-position= 'F' , data-height= '611', data-number= '34'>Ryan Kelly</option>
+<option value= 'Luke Kennard' , data-decade= '2010' , data-start= '2015' , data-years= '2' , data-position= 'G' , data-height= '606', data-number= '5'>Luke Kennard</option>
+<option value= 'Taylor King' , data-decade= '2000' , data-start= '2007' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '20'>Taylor King</option>
+<option value= 'Billy King' , data-decade= '1980' , data-start= '1984' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '55'>Billy King</option>
+<option value= 'Greg Koubek' , data-decade= '1980' , data-start= '1987' , data-years= '3' , data-position= 'F' , data-height= '606', data-number= '22'>Greg Koubek</option>
+<option value= 'Christian Laettner' , data-decade= '1980' , data-start= '1988' , data-years= '4' , data-position= 'F' , data-height= '611', data-number= '32'>Christian Laettner</option>
+<option value= 'Antonio Lang' , data-decade= '1990' , data-start= '1990' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '21'>Antonio Lang</option>
+<option value= 'Trajan Langdon' , data-decade= '1990' , data-start= '1995' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '21'>Trajan Langdon</option>
+<option value= 'Dereck Lively II' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'C' , data-height= '701', data-number= '1'>Dereck Lively II</option>
+<option value= 'Reggie Love' , data-decade= '2000' , data-start= '2001' , data-years= '4' , data-position= 'F' , data-height= '604', data-number= '30'>Reggie Love</option>
+<option value= 'Corey Maggette' , data-decade= '1990' , data-start= '1998' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '50'>Corey Maggette</option>
+<option value= 'David Mayer' , data-decade= '2010' , data-start= '2010' , data-years= '1' , data-position= 'G' , data-height= '604', data-number= '51'>David Mayer</option>
+<option value= 'Bill McCaffrey' , data-decade= '1980' , data-start= '1989' , data-years= '1' , data-position= 'G' , data-height= '603', data-number= '5'>Bill McCaffrey</option>
+<option value= 'David McClure' , data-decade= '2000' , data-start= '2005' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '14'>David McClure</option>
+<option value= 'Roshown Mcleod' , data-decade= '1990' , data-start= '1996' , data-years= '2' , data-position= 'F' , data-height= '608', data-number= '4'>Roshown Mcleod</option>
+<option value= 'Doug McNeely' , data-decade= '1980' , data-start= '1980' , data-years= '4' , data-position= 'F' , data-height= '604', data-number= '11'>Doug McNeely</option>
+<option value= 'Josh McRoberts' , data-decade= '2000' , data-start= '2005' , data-years= '2' , data-position= 'F' , data-height= '610', data-number= '2'>Josh McRoberts</option>
+<option value= 'Dan Meagher' , data-decade= '1980' , data-start= '1981' , data-years= '4' , data-position= 'F' , data-height= '607', data-number= '45'>Dan Meagher</option>
+<option value= 'Andy Means' , data-decade= '2000' , data-start= '2001' , data-years= '1' , data-position= 'G' , data-height= '605', data-number= '53'>Andy Means</option>
+<option value= 'Erik Meek' , data-decade= '1990' , data-start= '1991' , data-years= '4' , data-position= 'C' , data-height= '610', data-number= '52'>Erik Meek</option>
+<option value= 'Lee Melchionni' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '13'>Lee Melchionni</option>
+<option value= 'Mark Mitchell' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '25'>Mark Mitchell</option>
+<option value= 'Tony Moore' , data-decade= '1990' , data-start= '1992' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '30'>Tony Moore</option>
+<option value= 'Wendell Moore Jr.' , data-decade= '2010' , data-start= '2019' , data-years= '3' , data-position= 'F' , data-height= '605', data-number= '0'>Wendell Moore Jr.</option>
+<option value= 'Alex Murphy' , data-decade= '2010' , data-start= '2011' , data-years= '2' , data-position= 'F' , data-height= '608', data-number= '12'>Alex Murphy</option>
+<option value= 'DeMarcus Nelson' , data-decade= '2000' , data-start= '2004' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '21'>DeMarcus Nelson</option>
+<option value= 'Martin Nessley' , data-decade= '1980' , data-start= '1983' , data-years= '4' , data-position= 'C' , data-height= '702', data-number= '44'>Martin Nessley</option>
+<option value= 'Greg Newton' , data-decade= '1990' , data-start= '1993' , data-years= '4' , data-position= 'C' , data-height= '610', data-number= '55'>Greg Newton</option>
+<option value= 'Tom Novik' , data-decade= '2000' , data-start= '2003' , data-years= '2' , data-position= 'F' , data-height= '606', data-number= '50'>Tom Novik</option>
+<option value= 'Alex O'Connell' , data-decade= '2010' , data-start= '2017' , data-years= '3' , data-position= 'G' , data-height= '606', data-number= '15'>Alex O'Connell</option>
+<option value= 'Sean Obi' , data-decade= '2010' , data-start= '2014' , data-years= '3' , data-position= 'F' , data-height= '609', data-number= '34'>Sean Obi</option>
+<option value= 'Semi Ojeleye' , data-decade= '2010' , data-start= '2013' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '20'>Semi Ojeleye</option>
+<option value= 'Jahlil Okafor' , data-decade= '2010' , data-start= '2014' , data-years= '1' , data-position= 'C' , data-height= '611', data-number= '15'>Jahlil Okafor</option>
+<option value= 'Nick Pagliuca' , data-decade= '2010' , data-start= '2013' , data-years= '4' , data-position= 'G' , data-height= '603', data-number= '45'>Nick Pagliuca</option>
+<option value= 'Joe Pagliuca' , data-decade= '2000' , data-start= '2003' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '45'>Joe Pagliuca</option>
+<option value= 'Crawford Palmer' , data-decade= '1980' , data-start= '1988' , data-years= '2' , data-position= 'C' , data-height= '609', data-number= '34'>Crawford Palmer</option>
+<option value= 'Jabari Parker' , data-decade= '2010' , data-start= '2013' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '1'>Jabari Parker</option>
+<option value= 'Cherokee Parks' , data-decade= '1990' , data-start= '1991' , data-years= '4' , data-position= 'C' , data-height= '611', data-number= '44'>Cherokee Parks</option>
+<option value= 'Greg Paulus' , data-decade= '2000' , data-start= '2005' , data-years= '4' , data-position= 'G' , data-height= '601', data-number= '3'>Greg Paulus</option>
+<option value= 'Ross Perkins' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '40'>Ross Perkins</option>
+<option value= 'Baker Perry' , data-decade= '1990' , data-start= '1995' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '0'>Baker Perry</option>
+<option value= 'Casey Peters' , data-decade= '2000' , data-start= '2007' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '53'>Casey Peters</option>
+<option value= 'Marshall Plumlee' , data-decade= '2010' , data-start= '2011' , data-years= '5' , data-position= 'C' , data-height= '700', data-number= '40'>Marshall Plumlee</option>
+<option value= 'Miles Plumlee' , data-decade= '2000' , data-start= '2008' , data-years= '4' , data-position= 'F' , data-height= '610', data-number= '21'>Miles Plumlee</option>
+<option value= 'Mason Plumlee' , data-decade= '2000' , data-start= '2009' , data-years= '3' , data-position= 'F' , data-height= '610', data-number= '5'>Mason Plumlee</option>
+<option value= 'Martynas Pocius' , data-decade= '2000' , data-start= '2005' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '5'>Martynas Pocius</option>
+<option value= 'Ricky Price' , data-decade= '1990' , data-start= '1994' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '3'>Ricky Price</option>
+<option value= 'Tyrese Proctor' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'G' , data-height= '605', data-number= '5'>Tyrese Proctor</option>
+<option value= 'Shavlik Randolph' , data-decade= '2000' , data-start= '2002' , data-years= '3' , data-position= 'F' , data-height= '610', data-number= '42'>Shavlik Randolph</option>
+<option value= 'Cam Reddish' , data-decade= '2010' , data-start= '2018' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '2'>Cam Reddish</option>
+<option value= 'J.J. Redick' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '4'>J.J. Redick</option>
+<option value= 'Chrisitan Reeves' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'C' , data-height= '701', data-number= '21'>Chrisitan Reeves</option>
+<option value= 'Austin Rivers' , data-decade= '2010' , data-start= '2011' , data-years= '1' , data-position= 'G' , data-height= '604', data-number= '0'>Austin Rivers</option>
+<option value= 'Jeremy Roach' , data-decade= '2020' , data-start= '2020' , data-years= '3' , data-position= 'G' , data-height= '602', data-number= '3'>Jeremy Roach</option>
+<option value= 'Justin Robinson' , data-decade= '2010' , data-start= '2015' , data-years= '5' , data-position= 'F' , data-height= '609', data-number= '50'>Justin Robinson</option>
+<option value= 'Casey Sanders' , data-decade= '2000' , data-start= '2001' , data-years= '3' , data-position= 'C' , data-height= '611', data-number= '20'>Casey Sanders</option>
+<option value= 'Michael Savarino' , data-decade= '2010' , data-start= '2019' , data-years= '3' , data-position= 'G' , data-height= '600', data-number= '30'>Michael Savarino</option>
+<option value= 'Jon Scheyer' , data-decade= '2000' , data-start= '2006' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '30'>Jon Scheyer</option>
+<option value= 'Jaden Schutt' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'G' , data-height= '605', data-number= '14'>Jaden Schutt</option>
+<option value= 'J.D. Simpson' , data-decade= '1990' , data-start= '1997' , data-years= '4' , data-position= 'G' , data-height= '604', data-number= '13'>J.D. Simpson</option>
+<option value= 'Kyle Singler' , data-decade= '2000' , data-start= '2007' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '12'>Kyle Singler</option>
+<option value= 'Todd Singleton' , data-decade= '1990' , data-start= '1994' , data-years= '4' , data-position= 'F' , data-height= '604', data-number= '15'>Todd Singleton</option>
+<option value= 'Nolan Smith' , data-decade= '2000' , data-start= '2007' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '2'>Nolan Smith</option>
+<option value= 'John Smith' , data-decade= '1980' , data-start= '1985' , data-years= '4' , data-position= 'F' , data-height= '607', data-number= '33'>John Smith</option>
+<option value= 'Quin Snyder' , data-decade= '1980' , data-start= '1985' , data-years= '4' , data-position= 'G' , data-height= '603', data-number= '14'>Quin Snyder</option>
+<option value= 'Cassius Stanley' , data-decade= '2010' , data-start= '2019' , data-years= '1' , data-position= 'G' , data-height= '606', data-number= '2'>Cassius Stanley</option>
+<option value= 'DJ Steward' , data-decade= '2020' , data-start= '2020' , data-years= '1' , data-position= 'G' , data-height= '602', data-number= '2'>DJ Steward</option>
+<option value= 'Kevin Strickland' , data-decade= '1980' , data-start= '1984' , data-years= '4' , data-position= 'G' , data-height= '605', data-number= '31'>Kevin Strickland</option>
+<option value= 'Rasheed Sulaimon' , data-decade= '2010' , data-start= '2012' , data-years= '2' , data-position= 'G' , data-height= '604', data-number= '14'>Rasheed Sulaimon</option>
+<option value= 'Nick Sutton' , data-decade= '2000' , data-start= '2006' , data-years= '1' , data-position= 'G' , data-height= '602', data-number= '13'>Nick Sutton</option>
+<option value= 'Andre Sweet' , data-decade= '2000' , data-start= '2000' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '12'>Andre Sweet</option>
+<option value= 'Patrick Tapé' , data-decade= '2020' , data-start= '2020' , data-years= '1' , data-position= 'F' , data-height= '609', data-number= '12'>Patrick Tapé</option>
+<option value= 'Jayson Tatum' , data-decade= '2010' , data-start= '2016' , data-years= '1' , data-position= 'F' , data-height= '608', data-number= '0'>Jayson Tatum</option>
+<option value= 'Lance Thomas' , data-decade= '2000' , data-start= '2006' , data-years= '4' , data-position= 'F' , data-height= '608', data-number= '42'>Lance Thomas</option>
+<option value= 'Tyler Thornton' , data-decade= '2010' , data-start= '2010' , data-years= '4' , data-position= 'G' , data-height= '602', data-number= '3'>Tyler Thornton</option>
+<option value= 'Griffin Tormey' , data-decade= '2000' , data-start= '2005' , data-years= '2' , data-position= 'G' , data-height= '511', data-number= '40'>Griffin Tormey</option>
+<option value= 'Gary Trent' , data-decade= '2010' , data-start= '2017' , data-years= '1' , data-position= 'G' , data-height= '606', data-number= '2'>Gary Trent</option>
+<option value= 'Antonio Vrankovic' , data-decade= '2010' , data-start= '2015' , data-years= '4' , data-position= 'C' , data-height= '700', data-number= '30'>Antonio Vrankovic</option>
+<option value= 'Carmen Wallace' , data-decade= '1990' , data-start= '1993' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '34'>Carmen Wallace</option>
+<option value= 'Jack White' , data-decade= '2010' , data-start= '2016' , data-years= '4' , data-position= 'F' , data-height= '607', data-number= '41'>Jack White</option>
+<option value= 'Dariq Whitehead' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '0'>Dariq Whitehead</option>
+<option value= 'Mark Williams' , data-decade= '2020' , data-start= '2020' , data-years= '2' , data-position= 'C' , data-height= '701', data-number= '15'>Mark Williams</option>
+<option value= 'Elliot Williams' , data-decade= '2000' , data-start= '2008' , data-years= '1' , data-position= 'G' , data-height= '604', data-number= '20'>Elliot Williams</option>
+<option value= 'Shelden Williams' , data-decade= '2000' , data-start= '2002' , data-years= '4' , data-position= 'F' , data-height= '609', data-number= '23'>Shelden Williams</option>
+<option value= 'Jason Williams' , data-decade= '2000' , data-start= '2001' , data-years= '3' , data-position= 'G' , data-height= '602', data-number= '22'>Jason Williams</option>
+<option value= 'Weldon Williams' , data-decade= '1980' , data-start= '1982' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '40'>Weldon Williams</option>
+<option value= 'Zion Williamson' , data-decade= '2010' , data-start= '2018' , data-years= '1' , data-position= 'F' , data-height= '607', data-number= '1'>Zion Williamson</option>
+<option value= 'Justise Winslow' , data-decade= '2010' , data-start= '2014' , data-years= '1' , data-position= 'F' , data-height= '606', data-number= '12'>Justise Winslow</option>
+<option value= 'Steve Wojciechowski' , data-decade= '1990' , data-start= '1994' , data-years= '4' , data-position= 'G' , data-height= '511', data-number= '12'>Steve Wojciechowski</option>
+<option value= 'Keenan Worthington' , data-decade= '2010' , data-start= '2019' , data-years= '4' , data-position= 'F' , data-height= '606', data-number= '45'>Keenan Worthington</option>
+<option value= 'Ryan Young' , data-decade= '2020' , data-start= '2022' , data-years= '1' , data-position= 'C' , data-height= '610', data-number= '15'>Ryan Young</option>
+<option value= 'Todd Zafirovski' , data-decade= '2000' , data-start= '2009' , data-years= '5' , data-position= 'F' , data-height= '609', data-number= '52'>Todd Zafirovski</option>
+<option value= 'Brian Zoubek' , data-decade= '2000' , data-start= '2006' , data-years= '4' , data-position= 'C' , data-height= '701', data-number= '55'>Brian Zoubek</option>
+
+
+  </select>
+
+  <button id="guess-button">Guess</button>
+  
+  <table>
+    <tr>
+      <th>Player</th>
+      <th>Decade</th>
+      <th>First Year</th>
+      <th># of Years</th>
+      <th>Position</th>
+      <th>Height</th>
+      <th>Number</th>
+    </tr>
+    <tr id="guess-row-1">
+      <td class="player-1"></td>
+      <td class="decade-1"></td>
+      <td class="first-year-1"></td>
+      <td class="num-years-1"></td>
+      <td class="position-1"></td>
+      <td class="height-1"></td>
+      <td class="number-1"></td>
+    </tr>
+    <tr id="guess-row-2">
+      <td class="player-2"></td>
+      <td class="decade-2"></td>
+      <td class="first-year-2"></td>
+      <td class="num-years-2"></td>
+      <td class="position-2"></td>
+      <td class="height-2"></td>
+      <td class="number-2"></td>
+    </tr>
+    <tr id="guess-row-3">
+      <td class="player-3"></td>
+      <td class="decade-3"></td>
+      <td class="first-year-3"></td>
+      <td class="num-years-3"></td>
+      <td class="position-3"></td>
+      <td class="height-3"></td>
+      <td class="number-3"></td>
+    </tr>
+    <tr id="guess-row-4">
+      <td class="player-4"></td>
+      <td class="decade-4"></td>
+      <td class="first-year-4"></td>
+      <td class="num-years-4"></td>
+      <td class="position-4"></td>
+      <td class="height-4"></td>
+      <td class="number-4"></td>
+    </tr>
+    <tr id="guess-row-5">
+      <td class="player-5"></td>
+      <td class="decade-5"></td>
+      <td class="first-year-5"></td>
+      <td class="num-years-5"></td>
+      <td class="position-5"></td>
+      <td class="height-5"></td>
+      <td class="number-5"></td>
+    </tr>
+    <tr id="guess-row-6">
+      <td class="player-6"></td>
+      <td class="decade-6"></td>
+      <td class="first-year-6"></td>
+      <td class="num-years-6"></td>
+      <td class="position-6"></td>
+      <td class="height-6"></td>
+      <td class="number-6"></td>
+    </tr>
+  </table>
+  
+
+  </body>
+  
+  <h2>Secret Player:</h2>
+<div id="secret-player-name"></div>
+  
+ <button id="reset-button">Reset</button>
+  
+  <button id="how-to-play" onclick="alert('Select a player from the Dropdown Menu and click the Guess Button to confirm your choice. Green = Correct, Yellow = within two units, except within one decade. Blue = Correct Name. Reset Button restarts the game with a New Secret Player.')">How to Play</button>
+
+  
+  </html>
